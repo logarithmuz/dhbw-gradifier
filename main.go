@@ -70,8 +70,8 @@ type Exam struct {
 const (
 	DEBUG           = true
 	baseURL         = "https://dualis.dhbw.de/"
-	loginPath       = "scripts/mgrqcgi?APPNAME=CampusNet&PRGNAME=EXTERNALPAGES&ARGUMENTS=-N000000000000001,-N000324,-Awelcome"
-	loginScriptPath = "/scripts/mgrqcgi"
+	loginPath       = "scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=EXTERNALPAGES&ARGUMENTS=-N000000000000001,-N000324,-Awelcome"
+	loginScriptPath = "/scripts/mgrqispi.dll"
 	userAgent       = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36"
 )
 
